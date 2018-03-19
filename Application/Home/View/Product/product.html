@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>江苏AB股份有限公司</title>
+	<link rel="stylesheet" href="/application/Public/bootstrap/css/bootstrap.min.css"/>
+	
+	<link rel="stylesheet" href="/application/Public/Home/index.css">
+	<script src="/application/Public/bootstrap/js/jquery.min.js"></script>
+	<script src="/application/Public/bootstrap/js/bootstrap.min.js"></script>
+	<style>
+		*{
+				font-family: 微软雅黑;
+		 }
+		.panel-heading{
+			background: #048044;
+			color: #fff;
+		}
+
+		.text{
+			margin-top: 15px;
+		}
+	   .panel img{
+	     width:100%;
+	   }
+	</style>
+		
+</head>
+<body>
+	 <include file="public:header"/>
+	 <include file="public:nav"/>
+	<div class="panel" style="border: 0;">
+  		<div class="panel-heading">
+  			<div class="pull-left">产品展示</div>
+  			<div class="pull-right">您现在的位置：首页&gt;&gt;产品展示</div>
+  			<div class="clearfix"></div>
+  		</div>
+  		<div class="panel-body">
+  			<ul class="list-group">
+
+  			  <volist name="productArr" id="productlist">	
+			  <li class="list-group-item">
+				<h4><a href="/index.php/home/product/productlist/id/{$productlist['id']}" style="color:#333;font-weight: bold;">{$productlist['title']}</a></h4>
+				<p style="color:#999;">发布时间:{$productlist['pubtime']|mb_substr=0,10,'utf-8'} &nbsp;&nbsp;  点击次数：2566</p>
+				<div>
+					<p style="color:#666;">{$productlist['content']|mb_substr=0,150,'utf-8'}</p>
+					
+				</div>
+			  </li>
+			   </volist>
+			 
+			</ul>
+  		</div>
+	</div>
+
+	
+	
+	<include file="public:footer"/>
+	
+</body>
+<script>
+	
+</script>
+</html>

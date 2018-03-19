@@ -1,0 +1,3253 @@
+[ 2018-03-14T08:00:31+08:00 ] ::1 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+
+[ 2018-03-14T08:00:35+08:00 ] ::1 /index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T08:00:57+08:00 ] ::1 /index.php/Admin/Login/checkform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0625s ]
+SQL: select * from admin where username='linqingxia' and password='123456' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-03-14T08:00:59+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T08:01:14+08:00 ] ::1 /index.php/admin/news/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0625s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0313s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T08:01:17+08:00 ] ::1 /index.php/admin/news/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `newstype` [ RunTime:0.0625s ]
+SQL: SELECT * FROM `newstype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T08:01:28+08:00 ] ::1 /index.php/admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0938s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T08:01:39+08:00 ] ::1 /index.php/admin/product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0576s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2018-03-14T08:01:44+08:00 ] ::1 /index.php/admin/company/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `company`  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T08:01:53+08:00 ] ::1 /index.php/admin/company/updatefm/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `company` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T08:02:06+08:00 ] ::1 /index.php/admin/company/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `company`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T08:02:12+08:00 ] ::1 /index.php/admin/login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002929s ]
+
+[ 2018-03-14T08:02:14+08:00 ] ::1 /index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2018-03-14T08:02:25+08:00 ] ::1 /index.php/Admin/Login/checkform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0156s ]
+SQL: select * from admin where username='linqingxia' and password='123456' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T08:02:26+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022461s ]
+
+[ 2018-03-14T10:26:42+08:00 ] ::1 /index.php/admin/login/indx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+ERR: 非法操作:indx
+
+[ 2018-03-14T10:27:10+08:00 ] ::1 /index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-03-14T10:27:28+08:00 ] ::1 /index.php/admin/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:login
+
+[ 2018-03-14T10:28:19+08:00 ] ::1 /index.php/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-03-14T10:28:35+08:00 ] ::1 /index.php/admin/login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2018-03-14T10:28:37+08:00 ] ::1 /index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:28:51+08:00 ] ::1 /index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:29:07+08:00 ] ::1 /index.php/Admin/Login/checkform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0313s ]
+SQL: select * from admin where username='linqingxia' and password='123456' [ RunTime:0.0313s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:29:09+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2018-03-14T10:29:18+08:00 ] ::1 /index.php/admin/news/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `newstype` [ RunTime:0.0488s ]
+SQL: SELECT * FROM `newstype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:30:36+08:00 ] ::1 /index.php/admin/news/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `newstype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `newstype`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0313s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `news` (`title`,`tid`,`content`,`author`) VALUES ('AB市场通讯','1','&lt;p style=&quot;font-family:微软雅黑;color:#333333;font-size:14px;&quot;&gt;
+	&lt;span style=&quot;font-weight:700;&quot;&gt;一﹑行业趋势&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:微软雅黑;color:#333333;font-size:14px;&quot;&gt;
+	1. 据中国产业调研网发布的2016年中国内衣现状调研及市场前景走势分析报告显示：在内衣市场上，文胸占据了内衣消费的60%，是内衣的重中之重。内裤的主要市场是男士内裤，未来发展潜力巨大。家居服不在于品牌之间的竞争，而在于消费者对家居品类的认知。保暖内衣经历了疯狂的广告轰炸后，回归沉寂，开始思考新的盈利增长点。塑身内衣并未真正满足消费者的需求。情趣内衣在保守的中国人面前，像一团被埋在地下的烈火，伺机喷薄而出。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:微软雅黑;color:#333333;font-size:14px;&quot;&gt;
+	2. 据上海商情信息中心——快速消费品研究提供的销售信息，2015年上半年“AB”首次摘得内裤桂冠，“惊呀”﹑“珠珠”分居二﹑三，“卡帝乐”﹑“恒源祥”﹑“倩黛”﹑“蓓比适”首次上榜，分居七﹑八﹑九﹑十，“宝派”﹑“洁丽雅”﹑“秦汉”﹑“乐融”跌出榜单。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:微软雅黑;color:#333333;font-size:14px;&quot;&gt;
+	&lt;span style=&quot;font-weight:700;&quot;&gt;二﹑AB国内市场信息&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:微软雅黑;color:#333333;font-size:14px;&quot;&gt;
+	1. B2B网络平台6月份累计招商4名，客商分别来自上海金山，江苏海安，安徽淮南，广东东莞。开设店铺3个，分别是上海金山专卖店，贵州毕节专卖店及广东东莞门店。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:微软雅黑;color:#333333;font-size:14px;&quot;&gt;
+	2. B2C电商平台：6月份活动不断，6.6大促，6.9店庆，6.18大促，当月销售170万元，业绩与去年持平。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:微软雅黑;color:#333333;font-size:14px;&quot;&gt;
+	3. 南昌公司首个实体专卖店于7月2日正式开张营业。该店位于南昌市中心区域南京东路，面积76平方米，与著名的南昌大学隔街相望，毗邻天虹商场，“三枪”﹑“都市丽人”﹑“猫人”专卖店。商业位置十分优越，是人流较大的中心商圈。南昌公司杨卫东经理预测年销售100万元。该店的开张，填补了南昌市多年无专卖店的空白，同时将进一步提升AB在该地区的品牌形象和品牌知名度。
+&lt;/p&gt;','AB小编') [ RunTime:0.1250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015625s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:30:38+08:00 ] ::1 /index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:30:47+08:00 ] ::1 /index.php/Admin/News/updatefm/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `newstype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `newstype`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: select * from news n inner join newstype t on n.tid=t.id where n.id=7 [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:30:56+08:00 ] ::1 /index.php/admin/news/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `newstype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `newstype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-03-14T10:32:13+08:00 ] ::1 /index.php/admin/news/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `newstype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `newstype`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0313s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `news` (`title`,`tid`,`content`,`author`) VALUES ('女人心内衣分享调整型内衣小常识','1','&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	调整型内衣具有修身美体的功效，是现代爱美女性偏爱的服装之一。它能够改善胸部外扩、下垂、副乳、背部脂肪。即使没有这些缺陷的人士，穿着调整型文胸能让完美胸型保持更长时间。那么，怎样才能更好的保养调整型内衣延长其使用寿命呢？女人心为你解答：
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-family:微软雅黑;font-weight:700;&quot;&gt;&amp;emsp;&amp;emsp;调整型内衣的清洗、保养方法&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;1.用冷水或30度以下微温的水，可用冷洗精浸泡。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;2.不可用漂白剂，应避免与有色衣物同洗。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;3.洗涤时应轻轻柔搓，用最短时间洗完，为避免变形，不可脱水、拧干。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;4.用毛巾吸汗水分，并顺织纹纹路从直到横拉平后在阴凉通风处用衣夹晾干（文胸类应倒挂晾干）。不可日晒，也不可烘干，以免变质、变黄。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;5.完全晾干后再顺着塑片、钢条方向平放收纳。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-family:微软雅黑;font-weight:700;&quot;&gt;&amp;emsp;&amp;emsp;穿着的注意事项&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;1.天气不太热时，一天约穿四到八小时即可；夏天穿二到六小时即可，以便身体轻松排汗、正常新陈代谢。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;2.最少准备两到三件调整型内衣，以便让自己的调整型内衣能够经常清洗、休息，延长使用寿命。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;3.尽量将衣柜留出专门摆放调整型内衣的空间，避免损坏塑条或被其它衣服勾坏。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;4.第一次使用调整型内衣的女性应先从丹尼数低者开始尝试，并从每天两小时穿起，适应后再逐步增加时间和级数。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;5.不可穿着睡觉，以避免钢条结构变形。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;6.好的调整型内衣能够均匀的服帖于身体各部位，使肌肤得到一致的压力，对皮下脂肪产生按摩作用而均匀分布。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;7.强度要稳定而且易于调整，以配合不同体型的塑身需求，摒弃越紧效果越好的错误观念。
+&lt;/p&gt;','AB小编') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015625s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:32:16+08:00 ] ::1 /index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:32:43+08:00 ] ::1 /index.php/Admin/News/updatefm/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `newstype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `newstype`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: select * from news n inner join newstype t on n.tid=t.id where n.id=8 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:32:51+08:00 ] ::1 /index.php/admin/news/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `newstype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `newstype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:33:54+08:00 ] ::1 /index.php/admin/news/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `newstype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `newstype`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `news` (`title`,`tid`,`content`,`author`) VALUES ('4大内衣流言你中枪了没','1','&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-family:微软雅黑;line-height:1.8em;&quot;&gt;信息时代的到来，使得资信爆炸化，各种各样的资信传播在我们的周边，信息鱼龙混杂，流言频出。这不，关于内衣的流言，你们知道吗?小娜今天特意盘点这四大流言，给大伙解秘。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:center;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-family:微软雅黑;line-height:1.8em;&quot;&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;Q：听说穿黑色的内衣，得癌症的机率会比较高?网络上有一种说法，说穿着黑色内衣得乳癌的机会会比一般穿淡色内衣的还要高得多。因为深色内衣用的染料较多，所以可能会罹患乳癌的机率提升，这是真的吗?
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;A：错。其实穿着深色内衣并不会提高罹患乳癌的机率，并没有相关数据可以证明罹患乳癌的女性都是因为穿着黑色内衣的关系。其实只要我们在洗涤、收纳内衣时，注意卫生干净，穿什么颜色的内衣都不会有影响。当然衣物上过多的染色剂，若掺有有毒化学成分的话，对我们的人体都是会有害的。在这方面，最好选择有社会责任感的品牌。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;Q：想要胸型集中托高更显性感，是否选择穿小一个尺寸的内衣，更有爆乳效果?因为本身胸中不算大，看到有人分享若想要有丰满感，可以选择尺寸稍微小一点的内衣，穿起来就会有Up Up的效果?
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;A：大错特错。其实小一号罩杯的内衣除了无法更集中托高之外，乳房因为不自然地挤压，在我们有大动作时，无法完全包覆我们的胸型，更可以造成外扩的现象。一直穿着尺寸不对的内衣，会让胸部在无形中不断地缩小。现在内衣的罩杯设计已经非常丰富，选择一些聚拢的款式，将本该属于乳房的脂肪拨在一起，自然也能拥有自然性感的胸型。舒适自在的内衣，才是选择的王道。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;Q:听说胸部上有痣的女生，很容易有乳房病变?传说胸有大志的女生们，比一般人还要容易会有乳房病变，到底是真是假?
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;A:注意痣的变化，随时与医生确认。有56%的人认为胸上有痣，会有罹患皮肤癌或乳癌的可能性。事实上，并非如此，因为皮肤癌最主要危险因子是紫外线。因此预防皮肤癌的最好方法是避免阳光照射。其实后天长出来的痣，极少数会变成恶性黑色素瘤，但要注意成一身上的痣发生颜色、大小、形状变化，原本扁平的斑点突然凸起、出现红肿痛痒等发炎症状，或者有新长出来的痣，尤其是长在脚底、指缝间的可能是黑色素瘤的警讯，最好找皮肤科医师检查。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;Q:内裤只要没有破损，都是可以一直换穿没关系的?!虽然小裤裤的价格不算太贵，但平时没有破损就不会特别买新的内裤。每天都会亲手洗贴身内衣裤，也很干净，应该不会有什么问题吧?
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;A:错。有些女生们觉得只要小裤没有破损，都可以一直换洗穿着，其实这可是大错特错的观念喔!因为小裤裤接触的是女孩们身体最敏感位置，尽管内裤都有替换洗涤，但还是可能会有微菌或体污的残留。所以一般建议3个月就要替换一次衣柜里的小裤，才是最卫生健康的方法。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;网络上有极多的内衣保养宣言，千万不要没有求证就乱相信，否则胸型没有美丽，还让胸部出走。或是穿错内衣，反而让胸部越穿越小，得不偿失。
+&lt;/p&gt;','AB小编') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:33:56+08:00 ] ::1 /index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:34:48+08:00 ] ::1 /index.php/admin/news/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `newstype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `newstype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:35:24+08:00 ] ::1 /index.php/admin/news/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `newstype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `newstype`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `news` (`title`,`tid`,`content`,`author`) VALUES ('美体内衣，能否成为内衣行业“第五道菜”?','1','&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-family:微软雅黑;line-height:1.8em;&quot;&gt;在说美体内衣之前，我们先简单谈谈近几年来消费者对内衣消费观念的改变。近几年来，女性消费者好像不再那么极致地追求完美的身材，开始拥抱真实自然的美。有两个典型的案例。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;维多利亚的秘密这个因“天使面孔魔鬼身材”名模内衣秀而走红的全球内衣品牌，其对美的极致追求以往是受人追捧的，现在反而让人攻击其不够接地气。而崇尚自然、承诺不修图的Aerie内衣反而获得了粉丝的赞誉，进而引发内衣销量的爆增......
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;而美体内衣，因其具有矫正体形、调整脂肪分布，使女性身材曲线优美、比例均匀的功能，在21世纪初刚推出时，受到广大女性的青睐，但近几年来，频频传出美体内衣给女性造成各种副作用，加上女性消费者对健康与美丽的观念转变，美体内衣应该如何适应现在内衣市场的激烈竞争?美体内衣能否实现健康舒适与塑形美丽共存，成为内衣行业继文胸、家居、保暖、男士内裤的“第五道菜”?
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:center;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-family:微软雅黑;&quot;&gt;&amp;emsp;&lt;/span&gt;&lt;span style=&quot;font-family:微软雅黑;font-weight:700;&quot;&gt;&amp;emsp;美丽，不变的主题美体内衣的起源与发展&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;什么是美体内衣?美体内衣不仅仅是简单的紧身衣，而是各种矫正型内衣的统称，包括文胸、连体和分体式塑身衣、束腹带、塑身裤袜等。据了解，美体内衣主要分为两大类，为常规美体内衣、塑身美体内衣。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;这两种类型有什么区别呢?从压力上区别，常规美体内衣，主要是以重压及中压为主，而塑身美体内衣则是以中压及轻压为主。从功能上区分，常规美体内衣是以多排扣的连体或分体衣对女性形成一种外在的束缚以达到塑形的效果，而塑身美体内衣则是无缝型的，从对女性的外在塑身实现内在的保养。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;不过，无论是哪种无论是哪种类型，美体内衣不变的主题，那就是为女性创造美丽。而从美体内衣的类型，可以把美体内衣的发展历程分为两个阶段，第一个阶段常规美体内衣的出现，第二个阶段是塑身美体内衣的出现。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;可以这么说，国内女性真正开始广泛熟悉美体内衣是从婷美内衣的推出开始。并且婷美内衣也是常规美体内衣代表性品牌。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;1999年末，中国内衣界发生了一场“地震”，这场“地震”是由婷美引起的，婷美一面市即热卖到让商界、媒体、政府甚至婷美自己都瞠目结舌的程度。说得有些夸张，但也道出了婷美刚刚推出之时，在整个内衣行业所引起的轰动性是极大的。当时婷美的主流价位是800-1500之间，这个价位有当时来讲，是十分高，但婷美在推出仅仅一年的时间，也就是2000年，便实现了近3个亿的销售目标，从数据上来看，当时的婷美、当时的美体内衣受消费者热捧的程度。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;据飞刀策划总经理马佶(其本身在婷美工作过六七年)称，当时的美体内衣主要渠道为商超，专卖店是十分少的，而当时的商超渠道，婷美则一支独秀。虽然在市场也有许多厂家在生产美体内衣，但其主要还是以贴牌或流通为主，如当时的舒媛还有俏丹娜等，据舒媛总经理吴泽文称，虽然舒媛从1997年便涉足美体领域，但当时舒媛还没进行品牌化操作，而做一些贴牌加工，包括婷美，很多产品是出自舒媛。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;在婷美内衣火热了四五年的时间，也就是从其出现到2004年，很多消费者因已慢慢由到追求极致身材的热衷慢慢变得理性，并且常规美体内衣这种强调重压塑形对渴望舒适的女性而言，其体验感欠佳，所以渐渐地常规美体内衣其市场逐渐没落。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;但美是女性一直以来的追求，美体衣在发展的过程中也在不断地改善，在经过一段时间的沉淀，美体衣出现了新的风潮，也就是塑身美体内衣的出现，也就是无缝型美体内衣的出现，强调轻压保养为主。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;如果说第一个推出常规美体内衣的是婷美，那么最先推出无缝型的塑身美体内衣又是谁呢?
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;在与紫秀总经理汤殷交流过程中，其称，最先推出塑身美体内衣要数荣利服饰了，其旗下品牌紫秀在2009年推出市场，并且其主要以无缝型为主。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;可以说在当时强调重压、中压以达到塑形效果的美体内衣领域，紫秀的出现，是一个分水岭。随着紫秀的出现，也有许多品牌跟着做塑身美体内衣，包括爱美莱、秀界、港莎、傲莱等。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;塑身美体内衣的出现，其渠道也更加丰富，包括商超、专卖店、美容院专业渠道等，并且价格也不会像常规内衣出现时那么高，以紫秀来说，其价位为248-495之间。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;美体内衣在发展的过程，除了以上说两个发展阶段外，还有两个异类，一是莱特妮丝，一是中脉laca。为什么说是异类?两者有相同点也有不同点。相同点就是两者的发展渠道独立于其他美体内衣，不同点也是在于其渠道。莱特妮丝是倡导用户体验的，强调为消费者打造形体。而中脉laca则是走专业的美容院及直营模式，且其价位十分高，五千至上万不等。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:center;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-family:微软雅黑;font-weight:700;&quot;&gt;&amp;emsp;&amp;emsp;频传副作用,体验效果差关于美体内衣的争议&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;塑身美体内衣以重修、重塑身体曲线，缔造自然的性感窈窕美态得到广大爱美女性的青睐，但同时有研究表明，超过六成的妇科炎症与穿着塑身美体内衣有关，长时间穿塑身内衣会使身体活动受限、肌肉紧绷，在一定程度上阻碍了腹部血液循环和内脏供氧，导致子宫、卵巢受到损伤，引起尿痛、尿频、排尿困难、月经不规律、胃肠功能降低、腹部不适、易疲劳等副作用。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;塑身美体内衣频频传出副作用，这也是近几年来塑身美体内衣在发展过程中一直不温不火的主要原因之一。除了此原因外，美体内衣因其体验效果差频频遭消费者“遗弃”。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;在美体内衣刚刚推出市场中，其消费群体以60后、70后的女性为主，当时的女性对内衣的消费观在于美丽，而现在内衣的消费主流群体为80后、90后甚至00后的女性，这部分女性也强调美丽，但其美丽观其60后、70后极为不同，她更强调的是舒适健康，特别是90后、00后，她们的思想更为开放，有些甚至会认为不穿内衣更为舒适美丽。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Simsun;color:#333333;font-size:14px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&amp;emsp;&amp;emsp;所以像美体内衣，不管是重压也好，中压或轻压也好，其体验效果总不会常规文胸、无钢圈内衣甚至不穿内衣舒适，多少对人体有所束缚。
+&lt;/p&gt;','AB小编') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:35:27+08:00 ] ::1 /index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:35:46+08:00 ] ::1 /index.php/Admin/News/updatefm/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `newstype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `newstype`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: select * from news n inner join newstype t on n.tid=t.id where n.id=3 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:36:34+08:00 ] ::1 /index.php/admin/news/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `newstype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `newstype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:38:14+08:00 ] ::1 /index.php/admin/news/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `newstype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `newstype`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0313s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `news` (`title`,`tid`,`content`,`author`) VALUES ('公司副总殷红良和柬埔寨首相洪森合影','2','&lt;img src=&quot;file://C:/Users/Administrator/Desktop/chinaab/www.chinaab.com/mobile/images/hongsen.jpg&quot; /&gt;&lt;img src=&quot;file://C:/Users/Administrator/Desktop/chinaab/www.chinaab.com/mobile/images/hongsen.jpg&quot; /&gt;&lt;img src=&quot;/application/Public/kindeditor/php/attached/image/20180314/20180314103805_21807.jpg&quot; alt=&quot;&quot; /&gt;','AB小编') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015625s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:38:16+08:00 ] ::1 /index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:39:36+08:00 ] ::1 /index.php/admin/company/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `company`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:39:47+08:00 ] ::1 /index.php/admin/company/updatefm/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032226s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `company` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:48:18+08:00 ] ::1 /index.php/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T11:03:04+08:00 ] ::1 /index.php/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T11:32:43+08:00 ] ::1 /index.php/admin/news/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-03-14T11:32:56+08:00 ] ::1 /index.php/admin/news/updatefm/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `newstype` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `newstype`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: select * from news n inner join newstype t on n.tid=t.id where n.id=7 [ RunTime:0.1094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T11:34:38+08:00 ] ::1 /index.php/admin/news/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `news` SET `title`='AB市场通讯',`tid`='1',`content`='&lt;p style=&quot;font-family:微软雅黑;color:#333333;font-size:14px;&quot;&gt;
+	&lt;span style=&quot;font-weight:700;&quot;&gt;&lt;span style=&quot;color:#333333;font-family:微软雅黑;font-size:14px;&quot;&gt;据中国产业调研网发布的2016年中国内衣现状调研及市场前景走势分析报告显示：在内衣市场上，文胸占据了内衣消费的60%，是内衣的重中之重。&lt;/span&gt;&lt;br /&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:微软雅黑;color:#333333;font-size:14px;&quot;&gt;
+	&lt;span style=&quot;font-weight:700;&quot;&gt;一﹑行业趋势&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-family:微软雅黑;color:#333333;font-size:14px;&quot;&gt;
+	1. 据中国产业调研网发布的2016年中国内衣现状调研及市场前景走势分析报告显示：在内衣市场上，文胸占据了内衣消费的60%，是内衣的重中之重。内裤的主要市场是男士内裤，未来发展潜力巨大。家居服不在于品牌之间的竞争，而在于消费者对家居品类的认知。保暖内衣经历了疯狂的广告轰炸后，回归沉寂，开始思考新的盈利增长点。塑身内衣并未真正满足消费者的需求。情趣内衣在保守的中国人面前，像一团被埋在地下的烈火，伺机喷薄而出。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:微软雅黑;color:#333333;font-size:14px;&quot;&gt;
+	2. 据上海商情信息中心——快速消费品研究提供的销售信息，2015年上半年“AB”首次摘得内裤桂冠，“惊呀”﹑“珠珠”分居二﹑三，“卡帝乐”﹑“恒源祥”﹑“倩黛”﹑“蓓比适”首次上榜，分居七﹑八﹑九﹑十，“宝派”﹑“洁丽雅”﹑“秦汉”﹑“乐融”跌出榜单。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:微软雅黑;color:#333333;font-size:14px;&quot;&gt;
+	&lt;span style=&quot;font-weight:700;&quot;&gt;二﹑AB国内市场信息&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-family:微软雅黑;color:#333333;font-size:14px;&quot;&gt;
+	1. B2B网络平台6月份累计招商4名，客商分别来自上海金山，江苏海安，安徽淮南，广东东莞。开设店铺3个，分别是上海金山专卖店，贵州毕节专卖店及广东东莞门店。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:微软雅黑;color:#333333;font-size:14px;&quot;&gt;
+	2. B2C电商平台：6月份活动不断，6.6大促，6.9店庆，6.18大促，当月销售170万元，业绩与去年持平。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:微软雅黑;color:#333333;font-size:14px;&quot;&gt;
+	3. 南昌公司首个实体专卖店于7月2日正式开张营业。该店位于南昌市中心区域南京东路，面积76平方米，与著名的南昌大学隔街相望，毗邻天虹商场，“三枪”﹑“都市丽人”﹑“猫人”专卖店。商业位置十分优越，是人流较大的中心商圈。南昌公司杨卫东经理预测年销售100万元。该店的开张，填补了南昌市多年无专卖店的空白，同时将进一步提升AB在该地区的品牌形象和品牌知名度。
+&lt;/p&gt;',`author`='AB小编' WHERE `id` = 7 [ RunTime:0.1250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T11:34:40+08:00 ] ::1 /index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015625s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T11:37:45+08:00 ] ::1 /index.php/admin/news/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T11:37:52+08:00 ] ::1 /index.php/admin/news/updatefm/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `newstype` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstype`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: select * from news n inner join newstype t on n.tid=t.id where n.id=11 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T13:02:50+08:00 ] ::1 /index.php/admin/news/updatefm/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `newstype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `newstype`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: select * from news n inner join newstype t on n.tid=t.id where n.id=3 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T13:29:57+08:00 ] ::1 /index.php/admin/news/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T13:30:03+08:00 ] ::1 /index.php/admin/news/updatefm/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `newstype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `newstype`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: select * from news n inner join newstype t on n.tid=t.id where n.id=11 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T14:13:33+08:00 ] ::1 /index.php/admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T14:13:38+08:00 ] ::1 /index.php/admin/product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T14:13:42+08:00 ] ::1 /index.php/admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T14:52:51+08:00 ] ::1 /index.php/admin/product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T14:51:04+08:00 ] ::1 /index.php/admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T14:51:08+08:00 ] ::1 /index.php/admin/product/delete/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+SQL: DELETE FROM `product` WHERE `id` = 6 [ RunTime:0.0313s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T14:51:11+08:00 ] ::1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T14:51:13+08:00 ] ::1 /index.php/Admin/Product/delete/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0000s ]
+SQL: DELETE FROM `product` WHERE `id` = 5 [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016602s ]
+
+[ 2018-03-14T14:51:16+08:00 ] ::1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T14:51:20+08:00 ] ::1 /index.php/admin/product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T14:54:22+08:00 ] ::1 /index.php/admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T14:54:40+08:00 ] ::1 /index.php/admin/product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018554s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015625s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:01:33+08:00 ] ::1 /index.php/admin/product/images/ladybig.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:01:33+08:00 ] ::1 /index.php/admin/product/images/ladybig2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2018-03-14T15:01:36+08:00 ] ::1 /index.php/admin/product/images/ladybig.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2018-03-14T15:01:36+08:00 ] ::1 /index.php/admin/product/images/ladybig2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2018-03-14T15:02:26+08:00 ] ::1 /index.php/admin/product/images/ladybig.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2018-03-14T15:02:26+08:00 ] ::1 /index.php/admin/product/images/ladybig2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021484s ]
+
+[ 2018-03-14T15:06:21+08:00 ] ::1 /index.php/admin/product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `product` (`title`,`tid`,`content`) VALUES ('AB女士内裤','1','&lt;p style=&quot;text-align:center;&quot;&gt;
+	&lt;img src=&quot;/application/Public/kindeditor/php/attached/image/20180314/20180314145607_74278.jpg&quot; alt=&quot;&quot; /&gt; 
+&lt;/p&gt;
+&lt;div class=&quot;&quot; style=&quot;text-align:center;&quot;&gt;
+	&lt;h4 class=&quot;&quot;&gt;
+		AB女士内裤
+	&lt;/h4&gt;
+	&lt;p&gt;
+		所属分类：&lt;b&gt;AB女士内裤&lt;/b&gt; 
+	&lt;/p&gt;
+	&lt;p&gt;
+		点击次数：1565
+	&lt;/p&gt;
+	&lt;p&gt;
+		发布日期：2017/09/12
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;a href=&quot;joinus.html&quot; class=&quot;btn btn-primary&quot;&gt;我要询价&lt;/a&gt; 
+	&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;jieshao&quot;&gt;
+	&lt;h5&gt;
+		详细介绍
+	&lt;/h5&gt;
+	&lt;p&gt;
+		&lt;img src=&quot;/application/Public/kindeditor/php/attached/image/20180314/20180314150542_48518.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/p&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;p&gt;
+			&lt;p&gt;
+				AB产品以“天然、绿色、健康”为定位，抗菌保健内裤和功能性内衣是AB产品的一大技术特点，主要源于从1987年以来与中国纺织大学的长期合作。AB产品的另一大技术特点是柔软舒适，不论是纯棉内衣、纯羊毛内衣、亲肤棉内衣、莫代尔内衣，都具有柔软舒适的显著优点。这独树一帜的技术来自意大利米兰的资深染整专家泽而比公司，AB已与其合作了20年。现在，AB集团已跨入一个新的发展阶段，正向着“百年AB，国际品牌”而努力。AB的成就离不开广大消费者的厚爱与支持，您的访问就是对我们的关爱。我们一定不负众望，为您提供更加贴心贴身的产品和服务。
+			&lt;/p&gt;
+			&lt;p&gt;
+				传承文明发展，AB一如既往地迈步向前。为扩大经营规模，我们将继续面向全国各地诚招加盟商，竭诚为各位合作伙伴服务。
+			&lt;/p&gt;
+			&lt;p&gt;
+				&lt;img src=&quot;/application/Public/kindeditor/php/attached/image/20180314/20180314150616_91125.jpg&quot; alt=&quot;&quot; /&gt;
+			&lt;/p&gt;
+		&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;') [ RunTime:0.0625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.031250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:06:24+08:00 ] ::1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:06:28+08:00 ] ::1 /index.php/Admin/Product/updatefm/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+SQL: select * from product n inner join protype t on n.tid=t.id where n.id=7 [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:15:04+08:00 ] ::1 /index.php/admin/product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-03-14T15:29:42+08:00 ] ::1 /index.php/admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031250s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-03-14T15:29:53+08:00 ] ::1 /index.php/admin/product/updatefm/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+SQL: select * from product n inner join protype t on n.tid=t.id where n.id=7 [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:31:59+08:00 ] ::1 /index.php/admin/product/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `product` SET `title`='AB女士内裤',`tid`='1',`content`='&lt;p style=&quot;text-align:center;&quot;&gt;
+	&lt;img src=&quot;/application/Public/kindeditor/php/attached/image/20180314/20180314145607_74278.jpg&quot; alt=&quot;&quot; /&gt; 
+&lt;/p&gt;
+&lt;div class=&quot;&quot; style=&quot;text-align:center;&quot;&gt;
+	&lt;h4 class=&quot;&quot;&gt;
+		AB女士内裤
+	&lt;/h4&gt;
+	&lt;p&gt;
+		所属分类：&lt;b&gt;AB女士内裤&lt;/b&gt; 
+	&lt;/p&gt;
+	&lt;p&gt;
+		点击次数：1565
+	&lt;/p&gt;
+	&lt;p&gt;
+		发布日期：2017/09/12
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;a href=&quot;/index.php/home/product/joinus.html&quot; class=&quot;btn btn-primary&quot;&gt;我要询价&lt;/a&gt; 
+	&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;jieshao&quot;&gt;
+	&lt;h5&gt;
+		详细介绍
+	&lt;/h5&gt;
+	&lt;p&gt;
+		&lt;img src=&quot;/application/Public/kindeditor/php/attached/image/20180314/20180314150542_48518.jpg&quot; alt=&quot;&quot; /&gt; 
+	&lt;/p&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;p&gt;
+			&lt;br /&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			AB产品以“天然、绿色、健康”为定位，抗菌保健内裤和功能性内衣是AB产品的一大技术特点，主要源于从1987年以来与中国纺织大学的长期合作。AB产品的另一大技术特点是柔软舒适，不论是纯棉内衣、纯羊毛内衣、亲肤棉内衣、莫代尔内衣，都具有柔软舒适的显著优点。这独树一帜的技术来自意大利米兰的资深染整专家泽而比公司，AB已与其合作了20年。现在，AB集团已跨入一个新的发展阶段，正向着“百年AB，国际品牌”而努力。AB的成就离不开广大消费者的厚爱与支持，您的访问就是对我们的关爱。我们一定不负众望，为您提供更加贴心贴身的产品和服务。
+		&lt;/p&gt;
+		&lt;p&gt;
+			传承文明发展，AB一如既往地迈步向前。为扩大经营规模，我们将继续面向全国各地诚招加盟商，竭诚为各位合作伙伴服务。
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;img src=&quot;/application/Public/kindeditor/php/attached/image/20180314/20180314150616_91125.jpg&quot; alt=&quot;&quot; /&gt; 
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;br /&gt;
+		&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;' WHERE `id` = 7 [ RunTime:0.1094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:32:01+08:00 ] ::1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:35:12+08:00 ] ::1 /index.php/admin/product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:37:17+08:00 ] ::1 /index.php/admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:37:23+08:00 ] ::1 /index.php/admin/product/updatefm/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+SQL: select * from product n inner join protype t on n.tid=t.id where n.id=7 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:38:25+08:00 ] ::1 /index.php/admin/product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-03-14T15:41:16+08:00 ] ::1 /index.php/admin/product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `product` (`title`,`tid`,`content`) VALUES ('','2','&lt;p style=&quot;text-align:center;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;h4 class=&quot;&quot; style=&quot;text-align:center;&quot;&gt;
+	&lt;img src=&quot;/application/Public/kindeditor/php/attached/image/20180314/20180314154014_23499.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;/h4&gt;
+&lt;h4 class=&quot;&quot; style=&quot;text-align:center;&quot;&gt;
+	AB男士内裤
+&lt;/h4&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+	所属分类：&lt;b&gt;AB男士内裤&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+	点击次数：1565
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+	发布日期：2017/09/12
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+	&lt;a href=&quot;http://localhost/index.php/home/product/joinus.html&quot; class=&quot;btn btn-primary&quot;&gt;我要询价&lt;/a&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;div class=&quot;jieshao&quot;&gt;
+	&lt;h5&gt;
+		详细介绍
+	&lt;/h5&gt;
+	&lt;p&gt;
+		&lt;img src=&quot;http://localhost/application/Public/kindeditor/php/attached/image/20180314/20180314150542_48518.jpg&quot; alt=&quot;&quot; /&gt; 
+	&lt;/p&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;p&gt;
+			&lt;br /&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			AB产品以“天然、绿色、健康”为定位，抗菌保健内裤和功能性内衣是AB产品的一大技术特点，主要源于从1987年以来与中国纺织大学的长期合作。AB产品的另一大技术特点是柔软舒适，不论是纯棉内衣、纯羊毛内衣、亲肤棉内衣、莫代尔内衣，都具有柔软舒适的显著优点。这独树一帜的技术来自意大利米兰的资深染整专家泽而比公司，AB已与其合作了20年。现在，AB集团已跨入一个新的发展阶段，正向着“百年AB，国际品牌”而努力。AB的成就离不开广大消费者的厚爱与支持，您的访问就是对我们的关爱。我们一定不负众望，为您提供更加贴心贴身的产品和服务。
+		&lt;/p&gt;
+		&lt;p&gt;
+			传承文明发展，AB一如既往地迈步向前。为扩大经营规模，我们将继续面向全国各地诚招加盟商，竭诚为各位合作伙伴服务。
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;img src=&quot;http://localhost/application/Public/kindeditor/php/attached/image/20180314/20180314150616_91125.jpg&quot; alt=&quot;&quot; /&gt; 
+		&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;') [ RunTime:0.0938s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.031250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.031250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:41:19+08:00 ] ::1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:41:27+08:00 ] ::1 /index.php/Admin/Product/updatefm/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+SQL: select * from product n inner join protype t on n.tid=t.id where n.id=8 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:41:50+08:00 ] ::1 /index.php/admin/product/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `product` SET `title`='AB男士内裤',`tid`='2',`content`='&lt;p style=&quot;text-align:center;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;h4 class=&quot;&quot; style=&quot;text-align:center;&quot;&gt;
+	&lt;img src=&quot;/application/Public/kindeditor/php/attached/image/20180314/20180314154014_23499.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;/h4&gt;
+&lt;h4 class=&quot;&quot; style=&quot;text-align:center;&quot;&gt;
+	AB男士内裤
+&lt;/h4&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+	所属分类：&lt;b&gt;AB男士内裤&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+	点击次数：1565
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+	发布日期：2017/09/12
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+	&lt;a href=&quot;http://localhost/index.php/home/product/joinus.html&quot; class=&quot;btn btn-primary&quot;&gt;我要询价&lt;/a&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;div class=&quot;jieshao&quot;&gt;
+	&lt;h5&gt;
+		详细介绍
+	&lt;/h5&gt;
+	&lt;p&gt;
+		&lt;img src=&quot;http://localhost/application/Public/kindeditor/php/attached/image/20180314/20180314150542_48518.jpg&quot; alt=&quot;&quot; /&gt; 
+	&lt;/p&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;p&gt;
+			&lt;br /&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			AB产品以“天然、绿色、健康”为定位，抗菌保健内裤和功能性内衣是AB产品的一大技术特点，主要源于从1987年以来与中国纺织大学的长期合作。AB产品的另一大技术特点是柔软舒适，不论是纯棉内衣、纯羊毛内衣、亲肤棉内衣、莫代尔内衣，都具有柔软舒适的显著优点。这独树一帜的技术来自意大利米兰的资深染整专家泽而比公司，AB已与其合作了20年。现在，AB集团已跨入一个新的发展阶段，正向着“百年AB，国际品牌”而努力。AB的成就离不开广大消费者的厚爱与支持，您的访问就是对我们的关爱。我们一定不负众望，为您提供更加贴心贴身的产品和服务。
+		&lt;/p&gt;
+		&lt;p&gt;
+			传承文明发展，AB一如既往地迈步向前。为扩大经营规模，我们将继续面向全国各地诚招加盟商，竭诚为各位合作伙伴服务。
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;img src=&quot;http://localhost/application/Public/kindeditor/php/attached/image/20180314/20180314150616_91125.jpg&quot; alt=&quot;&quot; /&gt; 
+		&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;' WHERE `id` = 8 [ RunTime:0.0176s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:41:53+08:00 ] ::1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:43:04+08:00 ] ::1 /index.php/Admin/Product/updatefm/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+SQL: select * from product n inner join protype t on n.tid=t.id where n.id=8 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:43:46+08:00 ] ::1 /index.php/admin/product/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `product` SET `title`='AB男士内裤',`tid`='2',`content`='&lt;p style=&quot;text-align:center;&quot;&gt;
+	&lt;img src=&quot;/application/Public/kindeditor/php/attached/image/20180314/20180314154014_23499.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;h4 class=&quot;&quot; style=&quot;text-align:center;&quot;&gt;
+	AB男士内裤
+&lt;/h4&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+	所属分类：&lt;b&gt;AB男士内裤&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+	点击次数：1565
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+	发布日期：2017/09/12
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+	&lt;a href=&quot;http://localhost/index.php/home/product/joinus.html&quot; class=&quot;btn btn-primary&quot;&gt;我要询价&lt;/a&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;div class=&quot;jieshao&quot;&gt;
+	&lt;h5&gt;
+		详细介绍
+	&lt;/h5&gt;
+	&lt;p&gt;
+		&lt;img src=&quot;http://localhost/application/Public/kindeditor/php/attached/image/20180314/20180314150542_48518.jpg&quot; alt=&quot;&quot; /&gt; 
+	&lt;/p&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;p&gt;
+			&lt;br /&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			AB产品以“天然、绿色、健康”为定位，抗菌保健内裤和功能性内衣是AB产品的一大技术特点，主要源于从1987年以来与中国纺织大学的长期合作。AB产品的另一大技术特点是柔软舒适，不论是纯棉内衣、纯羊毛内衣、亲肤棉内衣、莫代尔内衣，都具有柔软舒适的显著优点。这独树一帜的技术来自意大利米兰的资深染整专家泽而比公司，AB已与其合作了20年。现在，AB集团已跨入一个新的发展阶段，正向着“百年AB，国际品牌”而努力。AB的成就离不开广大消费者的厚爱与支持，您的访问就是对我们的关爱。我们一定不负众望，为您提供更加贴心贴身的产品和服务。
+		&lt;/p&gt;
+		&lt;p&gt;
+			传承文明发展，AB一如既往地迈步向前。为扩大经营规模，我们将继续面向全国各地诚招加盟商，竭诚为各位合作伙伴服务。
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;img src=&quot;http://localhost/application/Public/kindeditor/php/attached/image/20180314/20180314150616_91125.jpg&quot; alt=&quot;&quot; /&gt; 
+		&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;' WHERE `id` = 8 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:43:48+08:00 ] ::1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:48:43+08:00 ] ::1 /index.php/Admin/Product/updatefm/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+SQL: select * from product n inner join protype t on n.tid=t.id where n.id=8 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:49:03+08:00 ] ::1 /index.php/admin/product/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `product` SET `title`='AB男士内裤',`tid`='2',`content`='&lt;p style=&quot;text-align:center;&quot;&gt;
+	&lt;img src=&quot;/application/Public/kindeditor/php/attached/image/20180314/20180314154014_23499.jpg&quot; alt=&quot;&quot; /&gt; 
+&lt;/p&gt;
+&lt;h4 class=&quot;&quot; style=&quot;text-align:center;&quot;&gt;
+	AB男士内裤
+&lt;/h4&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+	所属分类：&lt;b&gt;AB男士内裤&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+	点击次数：1565
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+	发布日期：2017/09/12
+&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;
+	&lt;a href=&quot;http://localhost/index.php/home/product/joinus.html&quot; class=&quot;btn btn-primary&quot;&gt;我要询价&lt;/a&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;div class=&quot;jieshao&quot;&gt;
+	&lt;h5&gt;
+		详细介绍
+	&lt;/h5&gt;
+	&lt;p&gt;
+		&lt;img src=&quot;http://localhost/application/Public/kindeditor/php/attached/image/20180314/20180314150542_48518.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/p&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;p&gt;
+			AB产品以“天然、绿色、健康”为定位，抗菌保健内裤和功能性内衣是AB产品的一大技术特点，主要源于从1987年以来与中国纺织大学的长期合作。AB产品的另一大技术特点是柔软舒适，不论是纯棉内衣、纯羊毛内衣、亲肤棉内衣、莫代尔内衣，都具有柔软舒适的显著优点。这独树一帜的技术来自意大利米兰的资深染整专家泽而比公司，AB已与其合作了20年。现在，AB集团已跨入一个新的发展阶段，正向着“百年AB，国际品牌”而努力。AB的成就离不开广大消费者的厚爱与支持，您的访问就是对我们的关爱。我们一定不负众望，为您提供更加贴心贴身的产品和服务。
+		&lt;/p&gt;
+		&lt;p&gt;
+			传承文明发展，AB一如既往地迈步向前。为扩大经营规模，我们将继续面向全国各地诚招加盟商，竭诚为各位合作伙伴服务。
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;img src=&quot;http://localhost/application/Public/kindeditor/php/attached/image/20180314/20180314150616_91125.jpg&quot; alt=&quot;&quot; /&gt; 
+		&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;' WHERE `id` = 8 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:49:06+08:00 ] ::1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-03-14T15:57:40+08:00 ] ::1 /index.php/Admin/Product/updatefm/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+SQL: select * from product n inner join protype t on n.tid=t.id where n.id=7 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:58:16+08:00 ] ::1 /index.php/admin/product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T16:02:39+08:00 ] ::1 /index.php/admin/product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `product` (`title`,`tid`,`content`) VALUES ('AB女士内衣','3','&lt;p style=&quot;text-align:center;&quot;&gt;
+	&lt;img src=&quot;/application/Public/kindeditor/php/attached/image/20180314/20180314155958_34661.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;div class=&quot;&quot; style=&quot;text-align:center;&quot;&gt;
+	&lt;h4 class=&quot;&quot;&gt;
+		AB女士内衣
+	&lt;/h4&gt;
+	&lt;p&gt;
+		所属分类：&lt;b&gt;AB女士内衣&lt;/b&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		点击次数：1565
+	&lt;/p&gt;
+	&lt;p&gt;
+		发布日期：2017/09/12
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;a href=&quot;http://localhost/index.php/home/product/joinus.html&quot; class=&quot;btn btn-primary&quot;&gt;我要询价&lt;/a&gt;
+	&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;jieshao&quot;&gt;
+	&lt;h5&gt;
+		详细介绍
+	&lt;/h5&gt;
+	&lt;p&gt;
+		&lt;img src=&quot;http://localhost/application/Public/kindeditor/php/attached/image/20180314/20180314150542_48518.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/p&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;p&gt;
+			&lt;br /&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			AB产品以“天然、绿色、健康”为定位，抗菌保健内裤和功能性内衣是AB产品的一大技术特点，主要源于从1987年以来与中国纺织大学的长期合作。AB产品的另一大技术特点是柔软舒适，不论是纯棉内衣、纯羊毛内衣、亲肤棉内衣、莫代尔内衣，都具有柔软舒适的显著优点。这独树一帜的技术来自意大利米兰的资深染整专家泽而比公司，AB已与其合作了20年。现在，AB集团已跨入一个新的发展阶段，正向着“百年AB，国际品牌”而努力。AB的成就离不开广大消费者的厚爱与支持，您的访问就是对我们的关爱。我们一定不负众望，为您提供更加贴心贴身的产品和服务。
+		&lt;/p&gt;
+		&lt;p&gt;
+			传承文明发展，AB一如既往地迈步向前。为扩大经营规模，我们将继续面向全国各地诚招加盟商，竭诚为各位合作伙伴服务。
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;img src=&quot;/application/Public/kindeditor/php/attached/image/20180314/20180314160120_84047.jpg&quot; alt=&quot;&quot; /&gt;
+		&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;jieshao&quot;&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;p&gt;
+			&lt;img src=&quot;/application/Public/kindeditor/php/attached/image/20180314/20180314160207_82622.jpg&quot; alt=&quot;&quot; /&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;img src=&quot;/application/Public/kindeditor/php/attached/image/20180314/20180314160230_83339.jpg&quot; alt=&quot;&quot; /&gt;
+		&lt;/p&gt;
+		&lt;div&gt;
+			&lt;br /&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;') [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015625s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.031250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T16:02:41+08:00 ] ::1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T16:03:09+08:00 ] ::1 /index.php/admin/product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T16:09:38+08:00 ] ::1 /index.php/admin/product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0313s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `product` (`title`,`tid`,`content`) VALUES ('AB男士内衣','4','&lt;p style=&quot;text-align:center;&quot;&gt;
+	&lt;img src=&quot;/application/Public/kindeditor/php/attached/image/20180314/20180314160431_44211.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;div class=&quot;&quot; style=&quot;text-align:center;&quot;&gt;
+	&lt;h4 class=&quot;&quot;&gt;
+		AB男士内衣
+	&lt;/h4&gt;
+	&lt;p&gt;
+		所属分类：&lt;b&gt;AB男士内衣&lt;/b&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		点击次数：1550
+	&lt;/p&gt;
+	&lt;p&gt;
+		发布日期：2017/09/12
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;a href=&quot;http://localhost/index.php/home/product/joinus.html&quot; class=&quot;btn btn-primary&quot;&gt;我要询价&lt;/a&gt;
+	&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;jieshao&quot;&gt;
+	&lt;h5&gt;
+		详细介绍
+	&lt;/h5&gt;
+	&lt;p&gt;
+		&lt;img src=&quot;http://localhost/application/Public/kindeditor/php/attached/image/20180314/20180314150542_48518.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/p&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;p&gt;
+			AB产品以“天然、绿色、健康”为定位，抗菌保健内裤和功能性内衣是AB产品的一大技术特点，主要源于从1987年以来与中国纺织大学的长期合作。AB产品的另一大技术特点是柔软舒适，不论是纯棉内衣、纯羊毛内衣、亲肤棉内衣、莫代尔内衣，都具有柔软舒适的显著优点。这独树一帜的技术来自意大利米兰的资深染整专家泽而比公司，AB已与其合作了20年。现在，AB集团已跨入一个新的发展阶段，正向着“百年AB，国际品牌”而努力。AB的成就离不开广大消费者的厚爱与支持，您的访问就是对我们的关爱。我们一定不负众望，为您提供更加贴心贴身的产品和服务。
+		&lt;/p&gt;
+		&lt;p&gt;
+			传承文明发展，AB一如既往地迈步向前。为扩大经营规模，我们将继续面向全国各地诚招加盟商，竭诚为各位合作伙伴服务。
+		&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;jieshao&quot;&gt;
+	&lt;h5&gt;
+	&lt;/h5&gt;
+	&lt;p&gt;
+		&lt;img src=&quot;/application/Public/kindeditor/php/attached/image/20180314/20180314160738_26701.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/p&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;p&gt;
+			&lt;img src=&quot;/application/Public/kindeditor/php/attached/image/20180314/20180314160845_29264.jpg&quot; alt=&quot;&quot; /&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;br /&gt;
+		&lt;/p&gt;
+		&lt;div&gt;
+			&lt;br /&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015625s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T16:09:41+08:00 ] ::1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2018-03-14T16:14:42+08:00 ] ::1 /index.php/admin/company/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `company`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T16:14:52+08:00 ] ::1 /index.php/admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T16:15:00+08:00 ] ::1 /index.php/admin/product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T16:18:41+08:00 ] ::1 /index.php/admin/product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `product` (`title`,`tid`,`content`) VALUES ('优雅文胸','5','&lt;p style=&quot;text-align:center;&quot;&gt;
+	&lt;img src=&quot;/application/Public/kindeditor/php/attached/image/20180314/20180314161723_75695.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;div class=&quot;&quot; style=&quot;text-align:center;&quot;&gt;
+	&lt;h4 class=&quot;&quot;&gt;
+		优雅文胸
+	&lt;/h4&gt;
+	&lt;p&gt;
+		所属分类：&lt;b&gt;优雅文胸&lt;/b&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		点击次数：1565
+	&lt;/p&gt;
+	&lt;p&gt;
+		发布日期：2017/09/12
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;a href=&quot;http://localhost/index.php/home/product/joinus.html&quot; class=&quot;btn btn-primary&quot;&gt;我要询价&lt;/a&gt;
+	&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;jieshao&quot;&gt;
+	&lt;h5&gt;
+		详细介绍
+	&lt;/h5&gt;
+	&lt;p&gt;
+		&lt;img src=&quot;http://localhost/application/Public/kindeditor/php/attached/image/20180314/20180314150542_48518.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/p&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;p&gt;
+			&lt;br /&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			AB产品以“天然、绿色、健康”为定位，抗菌保健内裤和功能性内衣是AB产品的一大技术特点，主要源于从1987年以来与中国纺织大学的长期合作。AB产品的另一大技术特点是柔软舒适，不论是纯棉内衣、纯羊毛内衣、亲肤棉内衣、莫代尔内衣，都具有柔软舒适的显著优点。这独树一帜的技术来自意大利米兰的资深染整专家泽而比公司，AB已与其合作了20年。现在，AB集团已跨入一个新的发展阶段，正向着“百年AB，国际品牌”而努力。AB的成就离不开广大消费者的厚爱与支持，您的访问就是对我们的关爱。我们一定不负众望，为您提供更加贴心贴身的产品和服务。
+		&lt;/p&gt;
+		&lt;p&gt;
+			传承文明发展，AB一如既往地迈步向前。为扩大经营规模，我们将继续面向全国各地诚招加盟商，竭诚为各位合作伙伴服务。
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;img src=&quot;/application/Public/kindeditor/php/attached/image/20180314/20180314161833_62371.jpg&quot; alt=&quot;&quot; /&gt;
+		&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;jieshao&quot;&gt;
+	&lt;h5&gt;
+	&lt;/h5&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;p&gt;
+			&lt;br /&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;br /&gt;
+		&lt;/p&gt;
+		&lt;div&gt;
+			&lt;br /&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T16:18:44+08:00 ] ::1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T16:20:13+08:00 ] ::1 /index.php/admin/product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T16:23:28+08:00 ] ::1 /index.php/admin/product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002929s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `product` (`title`,`tid`,`content`) VALUES ('儿童抗菌','6','&lt;p style=&quot;text-align:center;&quot;&gt;
+	&lt;img src=&quot;/application/Public/kindeditor/php/attached/image/20180314/20180314162214_43060.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;div class=&quot;&quot; style=&quot;text-align:center;&quot;&gt;
+	&lt;h4 class=&quot;&quot;&gt;
+		儿童抗菌
+	&lt;/h4&gt;
+	&lt;p&gt;
+		所属分类：&lt;b&gt;儿童抗菌&lt;/b&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		点击次数：1565
+	&lt;/p&gt;
+	&lt;p&gt;
+		发布日期：2017/09/12
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;a href=&quot;http://localhost/index.php/home/product/joinus.html&quot; class=&quot;btn btn-primary&quot;&gt;我要询价&lt;/a&gt;
+	&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;jieshao&quot;&gt;
+	&lt;h5&gt;
+		详细介绍
+	&lt;/h5&gt;
+	&lt;p&gt;
+		&lt;img src=&quot;http://localhost/application/Public/kindeditor/php/attached/image/20180314/20180314150542_48518.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/p&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;p&gt;
+			AB产品以“天然、绿色、健康”为定位，抗菌保健内裤和功能性内衣是AB产品的一大技术特点，主要源于从1987年以来与中国纺织大学的长期合作。AB产品的另一大技术特点是柔软舒适，不论是纯棉内衣、纯羊毛内衣、亲肤棉内衣、莫代尔内衣，都具有柔软舒适的显著优点。这独树一帜的技术来自意大利米兰的资深染整专家泽而比公司，AB已与其合作了20年。现在，AB集团已跨入一个新的发展阶段，正向着“百年AB，国际品牌”而努力。AB的成就离不开广大消费者的厚爱与支持，您的访问就是对我们的关爱。我们一定不负众望，为您提供更加贴心贴身的产品和服务。
+		&lt;/p&gt;
+		&lt;p&gt;
+			传承文明发展，AB一如既往地迈步向前。为扩大经营规模，我们将继续面向全国各地诚招加盟商，竭诚为各位合作伙伴服务。
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;img src=&quot;/application/Public/kindeditor/php/attached/image/20180314/20180314162317_51731.jpg&quot; alt=&quot;&quot; /&gt;
+		&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;jieshao&quot;&gt;
+	&lt;h5&gt;
+	&lt;/h5&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div&gt;
+			&lt;br /&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015625s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T16:23:30+08:00 ] ::1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012695s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T16:24:01+08:00 ] ::1 /index.php/admin/product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-03-14T16:27:59+08:00 ] ::1 /index.php/admin/product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008789s ]
+SQL: SHOW COLUMNS FROM `protype` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `protype`  [ RunTime:0.0137s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0137s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `product` (`title`,`tid`,`content`) VALUES ('抗菌产品','7','&lt;p style=&quot;text-align:center;&quot;&gt;
+	&lt;img src=&quot;/application/Public/kindeditor/php/attached/image/20180314/20180314162648_87802.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;div class=&quot;&quot; style=&quot;text-align:center;&quot;&gt;
+	&lt;h4 class=&quot;&quot;&gt;
+		抗菌用品
+	&lt;/h4&gt;
+	&lt;p&gt;
+		所属分类：&lt;b&gt;抗菌用品&lt;/b&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		点击次数：1565
+	&lt;/p&gt;
+	&lt;p&gt;
+		发布日期：2017/09/12
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;a href=&quot;http://localhost/index.php/home/product/joinus.html&quot; class=&quot;btn btn-primary&quot;&gt;我要询价&lt;/a&gt;
+	&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;jieshao&quot;&gt;
+	&lt;h5&gt;
+		详细介绍
+	&lt;/h5&gt;
+	&lt;p&gt;
+		&lt;img src=&quot;http://localhost/application/Public/kindeditor/php/attached/image/20180314/20180314150542_48518.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/p&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;p&gt;
+			AB产品以“天然、绿色、健康”为定位，抗菌保健内裤和功能性内衣是AB产品的一大技术特点，主要源于从1987年以来与中国纺织大学的长期合作。AB产品的另一大技术特点是柔软舒适，不论是纯棉内衣、纯羊毛内衣、亲肤棉内衣、莫代尔内衣，都具有柔软舒适的显著优点。这独树一帜的技术来自意大利米兰的资深染整专家泽而比公司，AB已与其合作了20年。现在，AB集团已跨入一个新的发展阶段，正向着“百年AB，国际品牌”而努力。AB的成就离不开广大消费者的厚爱与支持，您的访问就是对我们的关爱。我们一定不负众望，为您提供更加贴心贴身的产品和服务。
+		&lt;/p&gt;
+		&lt;p&gt;
+			传承文明发展，AB一如既往地迈步向前。为扩大经营规模，我们将继续面向全国各地诚招加盟商，竭诚为各位合作伙伴服务。
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;img src=&quot;http://localhost/application/Public/kindeditor/php/attached/image/20180314/20180314150616_91125.jpg&quot; alt=&quot;&quot; /&gt;
+		&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;jieshao&quot;&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;p&gt;
+			&lt;img src=&quot;/application/Public/kindeditor/php/attached/image/20180314/20180314162741_43277.jpg&quot; alt=&quot;&quot; /&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			&lt;br /&gt;
+		&lt;/p&gt;
+		&lt;div&gt;
+			&lt;br /&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;') [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010742s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009766s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2018-03-14T16:28:02+08:00 ] ::1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

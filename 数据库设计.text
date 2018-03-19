@@ -1,0 +1,48 @@
+#AB股份有限公司官网
+#admin表
+#公司新闻
+  新闻分类  
+  新闻详细页 	
+#产品展示
+   新闻分类
+   新闻详细页
+
+ create database AB;
+ use AB;
+ create  table admin(
+ 	id int primary key auto_increment,
+ 	username varchar(50),
+ 	password varchar(50)
+ );
+ create table newstype (
+ 	id int primary key auto_increment,
+ 	typename varchar(50) 
+
+ );  
+ create table news(
+ 	id int primary key auto_increment,
+ 	title varchar(50) not null ,
+ 	content text ,
+ 	pubtime int,
+ 	author varchar(50),
+ 	clicknum int,
+ 	img varchar(100),
+ 	tid int
+ );
+
+  create table protype (
+ 	id int primary key auto_increment,
+ 	typename varchar(50) 
+
+ );  
+ create table product(
+ 	id int primary key auto_increment,
+ 	title varchar(50),
+ 	content text,
+ 	pubtime int,
+ 	clicknum int,
+ 	
+ 	img varchar(100),
+ 	tid int
+ );
+

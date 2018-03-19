@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>江苏AB股份有限公司</title>
+	<link rel="stylesheet" href="/application/Public/bootstrap/css/bootstrap.min.css"/>
+	
+	
+	<script src="/application/Public/bootstrap/js/jquery.min.js"></script>
+	<script src="/application/Public/bootstrap/js/bootstrap.min.js"></script>
+	<!-- ueditor编辑器 -->
+ 	
+   
+	<link rel="stylesheet" href="/application/Public/kindeditor/themes/default/default.css" />
+	<link rel="stylesheet" href="/application/Public/kindeditor/plugins/code/prettify.css" />
+	<script charset="utf-8" src="/application/Public/kindeditor/kindeditor-all-min.js"></script>
+	<script charset="utf-8" src="/application/Public/kindeditor/lang/zh-CN.js"></script>
+	<script charset="utf-8" src="/application/Public/kindeditor/plugins/code/prettify.js"></script>
+	<style>
+    	*{
+				font-family: 微软雅黑;
+		 }
+		.panel-heading{
+			background: #048044;
+			color: #fff;
+		}
+		.panel-body a{
+			color:#333;
+		}
+
+		.text{
+			margin-top: 15px;
+		}
+    </style>
+</head>
+<body>
+	
+	<div class="container ">
+		<include file="Public:top" />	
+		<div class="row">
+			<include file="Public:left"/>
+			<div class="right col-md-9 pull-left">
+				<div class="panel">
+					<div class="panel panel-heading">
+						您现在的位置：添加产品
+					</div>
+					<div class="panel panel-body">
+						
+						<form action="/index.php/admin/product/add" class="frm" method="post" name="content" enctype="multipart/form-data">
+							<div class="form-group">
+								<label for="">产品标题:</label>
+								<input type="text" name="title" id="" class="form-control">
+							</div>
+							<div class="form-group">
+								<label for="">产品分类:</label>
+								
+								<select name="tid" id=""  class="form-control">
+								<volist name="nav" id="list">
+									<option value="{$list['id']}">{$list['typename']}</option>
+								</volist>	
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="">产品详情:</label>
+								<textarea  name="content" id="content" class="form-control"></textarea>
+							</div>
+							
+							<div class="form-group">
+								<button type="submit" class="btn btn-primary">提交</button>
+								<button type="reset" class="btn btn-danger">重置</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script>	
+		KindEditor.ready(function(K) {
+			var editor1 = K.create('#content', {
+				cssPath : '/application/Public/kindeditor/plugins/code/prettify.css',
+				uploadJson : '/application/Public/kindeditor/php/upload_json.php',
+				fileManagerJson : '/application/Public/kindeditor/php/file_manager_json.php',
+				allowFileManager : true,
+				height : "500px",
+				afterCreate : function() {
+					var self = this;
+					K.ctrl(document, 13, function() {
+						self.sync();
+						K('form[name=content]')[0].submit();
+					});
+					K.ctrl(self.edit.doc, 13, function() {
+						self.sync();
+						K('form[name=content]')[0].submit();
+					});
+				}
+			});
+
+
+			prettyPrint();
+		});
+		
+	</script>
+</html>

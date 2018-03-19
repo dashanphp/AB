@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+.kf{position:absolute;right:0;top:100px;overflow:hidden; z-index: 999;}
+.kf_btn{width:15px;float:left;background:url(../images/kf/blue11.png) left 33px no-repeat;height:95px;padding-left:7px;padding-right:7px;
+text-align:center;vertical-align:middle;color:#fff;padding-top:65px;cursor:pointer;position:relative; padding-bottom: 15px; font-family: "微软雅黑";}
+.kf_btn .open{width: 12px; height: 12px; position: absolute; left: 9px; bottom: 17px; background:url(../images/kf/kf_close.png) left top no-repeat;}
+.kf_btn .close{background:url(../images/kf/kf_open.png) left top no-repeat;}
+.kf_main{float:left;padding-bottom:5px;overflow:hidden;width:141px; margin-left: -4px;}
+.kf_title{float:left;}
+.kf_title span{display:block;line-height:28px;height:28px;text-align:center;font-size:15px;font-family:"Microsoft YaHei";border-bottom:2px solid #40b5e8;}
+.kf_list{background:url(../images/kf/v2.jpg) left top repeat-x #fff; padding-top: 5px; padding-left: 6px; padding-bottom: 8px;}
+.kf_list li{line-height:30px;height:30px; padding-left: 7px; background:url(../images/kf/qq_bg.jpg) left center no-repeat;}
+.kf_list li a{display: block; position: relative; line-height: 30px; padding-left: 36px; height: 30px;}
+.kf_list li a:hover{text-decoration: none;}
+.kf_list li a img{padding-right:5px;vertical-align:middle; position: absolute; left: 3px; top: 7px;}
+.kf_list li.sky{padding-left: 0px; background:none; margin-top: 0; height: 27px; line-height: 27px;} 
+
+.top_bg{height: 7px; background:url(../images/kf/blue1.png) left bottom no-repeat;}
+.top_center{background:url(../images/kf/bobg.png) left top repeat-y; padding: 0px 3px 1px 5px;}
+.bottom_bg{height: 8px; background:url(../images/kf/kf_bottom.png) left top no-repeat;}
+.e_code{padding-left:0px; padding-top: 6px; padding-bottom: 0px; border-top: 1px solid #cccccc; margin-top: 8px; text-align: center;}
+.e_code h3{padding-top: 2px; padding-bottom: 2px; text-align: center; font-weight: normal; color: #333; text-align: center;}
+
+
+.alignCenter{width:56px; display: none; margin: 0 auto;z-index: 999; border:1px solid #e9e9e9; padding: 2px; position:absolute;right:137px;top:277px;overflow:hidden; z-index: 999; background: #fff;}
+.alignCenter .title{height: 45px; line-height: 45px; padding-left: 5px; background: #f6f6f6; color: #666666; font-size: 12px; font-weight: bold; border-bottom: 1px solid #e9e9e9; position:relative;}
+.alignCenter .title img{position: absolute; right: 4px; top: 16px;}
+.alignCenter .content{padding: 5px; padding-right: 2px; padding-left: 8px;}
+.alignCenter .title img{cursor: pointer;}
+

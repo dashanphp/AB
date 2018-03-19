@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>江苏AB股份有限公司</title>
+	<link rel="stylesheet" href="/application/Public/bootstrap/css/bootstrap.min.css"/>
+	
+	<link rel="stylesheet" href="/application/Public/Home/index.css">
+	<script src="/application/Public/bootstrap/js/jquery.min.js"></script>
+	<script src="/application/Public/bootstrap/js/bootstrap.min.js"></script>
+	<style>
+		*{
+				font-family: 微软雅黑;
+		 }
+		.panel-heading{
+			background: #048044;
+			color: #fff;
+		}
+
+		.text{
+			margin-top: 15px;
+		}
+	   .panel img{
+	     width:100%;
+	   }
+	</style>
+		
+</head>
+<body>
+	 <include file="public:header"/>
+	<ul class="nav nav-pills">
+  		 
+  		<li role="presentation" class="dropdown">
+    		<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      		公司概况
+    		</a>
+    		<ul class="dropdown-menu">
+				 <li><a href="about.html">关于AB</a></li>
+	     		 <li><a href="wenhua.html">AB文化</a></li>
+	     		 <li><a href="leader.html">领导致辞</a></li>
+	     		 <li><a href="zizhi.html">资质荣誉</a></li>
+    		</ul>
+  	   </li>
+  	   <li role="presentation" class="dropdown">
+    		<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      		内衣城堡
+    		</a>
+    		<ul class="dropdown-menu">
+    			<li><a href="ladynk.html">AB女士内裤</a></li>
+     		 	<li><a href="mannk.html">AB男士内裤</a></li>
+     		 	<li><a href="ladyny.html">AB女士内衣</a></li>
+     		 	<li><a href="manny.html">AB男士内衣</a></li>
+     			 <li><a href="yywx.html">优雅文胸</a></li>
+     			 <li><a href="childkj.html">儿童抗菌</a></li>
+     		 	<li><a href="kjcp.html">抗菌产品</a></li>
+     		 
+    		</ul>
+  	   </li>
+  	   <li >
+    		<a  href="touch.html" role="button">
+      		联系我们
+    		</a>
+    		
+  	   </li>
+  		
+	</ul>
+	<div class="panel" style="border: 0;">
+  		<div class="panel-heading">
+  			<div class="pull-left">搜索结果</div>
+  			<div class="pull-right">您现在的位置：首页&gt;&gt;搜索结果</div>
+  			<div class="clearfix"></div>
+  		</div>
+  		<div class="panel-body">
+  			<ul class="list-group">
+			<if condition="$searchArr neq array()">
+  			  <volist name="searchArr" id="searchlist">	
+			  <li class="list-group-item">
+			  	<if condition='$searchlist["table"] eq "news"'>
+				    <h4><a href="/index.php/home/news/newslist/id/{$searchlist['id']}" style="color:#333;font-weight: bold;">{$searchlist['title']}</a></h4>
+				<else/>
+					<h4><a href="/index.php/home/product/productlist/id/{$searchlist['id']}" style="color:#333;font-weight: bold;">{$searchlist['title']}</a></h4>
+
+				</if>    
+				<div>
+					<p style="color:#666;">{$searchlist['content']|mb_substr=0,150,'utf-8'}</p>
+					<p style="color:#999;">发布时间:{$searchlist['pubtime']|mb_substr=0,10,'utf-8'} &nbsp;&nbsp;  点击次数：134</p>
+				</div>
+			  </li>
+			   </volist>
+			 <else/>
+			  <h4>对不起，没有任何搜索结果</h4>
+			</if>
+			</ul>
+  		</div>
+	</div>
+
+	
+	
+	<include file="public:footer"/>
+	
+</body>
+<script>
+	
+</script>
+</html>

@@ -1,0 +1,12 @@
+[ 2018-03-15T13:43:09+08:00 ] ::1 /index.php/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载模块:Id
+
+[ 2018-03-15T13:44:21+08:00 ] ::1 /index.php/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Id
+

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>江苏AB股份有限公司</title>
+	<link rel="stylesheet" href="/application/Public/bootstrap/css/bootstrap.min.css"/>
+	
+	<link rel="stylesheet" href="/application/Public/Home/index.css">
+	<script src="/application/Public/bootstrap/js/jquery.min.js"></script>
+	<script src="/application/Public/bootstrap/js/bootstrap.min.js"></script>
+	<style>
+    	*{
+				font-family: 微软雅黑;
+		 }
+		 ul{
+		 	list-style: none;
+		 }
+		.panel-heading{
+			background: #048044;
+			color: #fff;
+		}
+		.panel-body a{
+			color:#333;
+		}
+
+		.text{
+			margin-top: 15px;
+		}
+		.carousel-inner .carousel-caption{
+			width:100%;
+			bottom:0px;
+			left:0px;
+			
+		}
+		
+    </style>
+</head>
+<body>
+	
+	<include file="Public:header"/>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2">
+				<h4 class="page">
+					内衣城堡
+				</h4>
+				<div class="fenlei">
+					
+					<ul class="list-group ">
+						<volist name="pr" id="prlist">
+						<li class="list-group-item" style="width:50%;float:left;" >
+							<a href="index.php/home/product/productlist/id/{$prlist['id']}" >{$prlist['typename']}</a>
+						</li>
+						</volist>
+						<li class="clearfix"></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-8">
+				<h4 class="page">
+					图片新闻
+				</h4>
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+ 				 <!-- Indicators -->
+				  <!-- <ol class="carousel-indicators">
+				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+				  </ol>
+ -->
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner" role="listbox" >
+				  	<volist name="newspic" id="newspiclist">
+				    <div class="item">
+				      <a href="/index.php/home/news/newslist/id/{$newspiclist['id']}"><img src="{$newspiclist['img']}" alt="..." class="img-responsive" width="100%"></a>
+				      <div class="carousel-caption" >
+				        <a href="/index.php/home/news/newslist/id/{$newspiclist['id']}" >{$newspiclist['title']}</a>
+				      </div>
+				    </div>
+				    </volist>
+				   <script>
+				   		$(".carousel-inner").children(":first").addClass('active');
+				   </script>
+				    
+				  </div>
+
+				  <!-- Controls -->
+				  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="color:#fff;"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="color:#fff;"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row" style="">
+			<div class="col-xm-6">
+				<a href="/index.php/Home/About/about/id/4"><img src="/application/Public/Home/images/pinpai.png" alt="" class="pull-left" width="50%"></a>
+			</div>
+			<div class="col-xm-6">
+				<a href="/index.php/Home/About/about/id/8"><img src="/application/Public/Home/images/wenhua.png" alt="" class="pull-left" width="50%"></a>
+			</div>
+		</div>	
+		<div class="row" style="" >
+			<div class="col-xm-6">
+				<a href="/index.php/Home/About/about/id/6"><img src="/application/Public/Home/images/qudao.png" alt="" class="pull-left" width="50%"></a>
+			</div>
+			<div class="col-xm-6">
+				<a href="/index.php/Home/About/about/id/5"><img src="/application/Public/Home/images/zhaoshang.png" alt="" class="pull-left" width="50%"></a>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="about col-md-4">
+				<h5>关于我们 <a href="">more</a></h5>
+				<p>
+					<b>江苏AB集团股份有限公司</b>秉承“追求卓越，致力健康”的理念，坚守“针织内衣”的主业，经历了10年求索创业、10年崛起创牌、10年飞跃创新，三十而立的AB集团已是一家集科研、开发、营销于一体，统织造、染整、<b>AB内衣加盟、品牌内衣批发、AB集团内衣城堡</b>、成衣一条龙的企业集团，位列中国针织行业综合实力前五强。AB品牌也是国家商务部重点培育与发展的出口品牌。集团公司旗下主要有AB、A&B、T6等品牌，在全国有80多家销售公司。</p>
+
+				<p>
+					传承文明发展，AB一如既往地迈步向前。为扩大经营规模，我们将继续面向全国各地诚招加盟商，竭诚为各位合作伙伴服务。
+				</p>
+			</div>
+			<div class="newslist col-md-8">
+				<h5>新闻中心</h5>
+				<div class="col-md-3">
+					<img src="/application/Public/Home/images/ab.png" alt="" class="center-block">
+				</div>
+				<div class="col-md-9">
+					<!-- <div class="first">
+						<h5><a href="newspage5.html">江苏省委书记视察AB展位</a></h5>
+						<p>
+							江苏省省委书记罗志军视察AB展位（品牌内衣批发，AB内衣加盟，AB集团内衣城堡）
+						</p>
+					</div> -->
+					<volist name="newscenter" id="newschirld">
+					<div >
+						
+						<p class="pull-left"><a href="/index.php/home/news/newslist/id/{$newschirld['id']}">
+							{$newschirld['title']|mb_substr= 0,15,'utf-8'}</a></p>
+						
+						<p class="pull-right">
+							{$newschirld['pubtime']|mb_substr= 0,10,'utf-8'}
+						</p>
+						
+						<div class="clearfix"></div>
+					</div>
+					</volist>
+					
+				</div>
+			</div>	
+
+		</div>
+	</div>
+
+	<div class="container frieldship">
+		<h5>友情连接：</h5>
+		<div class="row">
+			<div class="col-md-6">
+				<a href="">
+					<img src="/application/Public/Home/images/abzhaoshang.jpg" alt="" class="center-block img-responsive" >
+				</a>
+				
+			</div>
+			<div class="col-md-6">
+				<div>
+					<a href="https://ab.tmall.com/"><img src="/application/Public/Home/images/tianmao.jpg" alt="" class="img-responsive"></a>
+				</div>
+				<div>
+					<a href="https://ababab.jd.com/"><img src="/application/Public/Home/images/jingdong.jpg" alt="" class="img-responsive"></a>
+				</div>
+				
+			</div>
+		</div>
+		<div >
+			<a href="http://www.neiyichengbao.cn/index.php">
+				<img src="/application/Public/Home/images/tiaozhuan.png" alt="" class="img-responsive" >
+			</a>
+			
+		</div>
+	</div>
+	<include file='Public:footer'/>
+	
+</body>
+<script>
+	
+</script>
+</html>

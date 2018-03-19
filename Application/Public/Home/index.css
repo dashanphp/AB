@@ -1,0 +1,76 @@
+*{
+	margin:0;
+	padding:0;
+}
+.nav{
+	margin:10px 0 10px 0;
+	margin-left:5%;
+}
+.nav .col-md-1{
+	float:left;
+}
+.nav a{
+	color:#333;
+}
+.search{
+	background: #048044;
+	
+}
+.search .input{
+	display: inline-block;
+	background: #fff;
+    border: 1px solid #c8c8c8;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.glyphicon{
+	color:#666;
+}
+.search .list{
+	float:left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color:#fff;
+}
+.search .list a{
+	color:#fff;
+}
+
+.page{
+	color:#048044;
+}
+.fenlei a{
+	color:#333;
+}
+
+.about{
+	background: #048044;
+	color:#fff;
+	padding:15px;
+}
+.newslist h5{
+	color: #333;
+}
+.newslist .first{
+	color:#999;
+}
+.newslist .first a{
+	color:#333;
+}
+.newslist .pull-left a{
+	color:#333;
+}
+.newslist .pull-right{
+	color:#999;
+}
+.frieldship{
+	background: #93c830;
+	padding:10px;
+}
+.frieldship h5{
+	color:#048044;
+}
+
+.carousel-caption a{
+  color:#fff;
+}
